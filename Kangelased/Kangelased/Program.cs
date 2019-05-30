@@ -42,6 +42,9 @@ namespace Kangelased
 				Console.WriteLine($"Päästa tuleb {arv} inimest.\nPäästa suudeti {kangelane.Päästa(arv)}.\n-------------");
 			}
 			Console.WriteLine("Hello World");
-		}
+
+            Pahalane jokker = new Pahalane("Jokker", "Gotham");
+            Console.WriteLine(jokker);
+        }
 	}
 }
